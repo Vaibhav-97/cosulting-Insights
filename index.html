@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting Insights</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: linear-gradient(90deg, #3a3f58, #2a2d40);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about, .services, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #3a3f58;
+            border-bottom: 2px solid #3a3f58;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .services .service-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .services img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        .services .description {
+            flex: 1;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea, button {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #3a3f58;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #52596d;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #3a3f58;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Consulting Insights</h1>
+        <p>Your Partner in Market Research and Consulting</p>
+    </header>
+    
+    <div class="container">
+        <section class="about">
+            <h2>About Us</h2>
+            <p>At Consulting Insights, we specialize in delivering top-notch market research and consulting services. With a team of industry experts, we empower businesses to make data-driven decisions and stay ahead in the competitive landscape.</p>
+        </section>
+
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <img src="https://via.placeholder.com/100" alt="Service 1">
+                <div class="description">
+                    <h3>Market Research</h3>
+                    <p>Comprehensive market analysis to help you identify trends, understand customer behavior, and explore new opportunities.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="https://via.placeholder.com/100" alt="Service 2">
+                <div class="description">
+                    <h3>Business Strategy</h3>
+                    <p>Customized strategies tailored to your business goals, ensuring sustainable growth and profitability.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <img src="https://via.placeholder.com/100" alt="Service 3">
+                <div class="description">
+                    <h3>Data Analytics</h3>
+                    <p>Turn data into actionable insights with our advanced analytics and visualization solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/mlddydlz" method="POST">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="message">Your Requirement:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your requirement" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Consulting Insights. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
